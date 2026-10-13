@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font-family-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --color-text: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border: #e5e7eb;
+  --color-neutral-50: #f9fafb;
+  --color-neutral-100: #f3f4f6;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-300: #d1d5db;
+  --color-neutral-400: #9ca3af;
+  --color-neutral-500: #6b7280;
+  --color-neutral-600: #4b5563;
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1f2937;
+  --color-neutral-900: #111827;
+
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-accent-light: #eff6ff;
+  --color-success: #15803d;
+  --color-success-light: #f0fdf4;
+  --color-warning: #b45309;
+  --color-warning-light: #fffbeb;
+  --color-error: #b91c1c;
+  --color-error-light: #fef2f2;
+
+  --text-small: 0.875rem;
+  --text-body: 1rem;
+  --text-page-title: 1.875rem;
+  --text-landing-title-min: 2.75rem;
+  --text-landing-title-max: 3.5rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --radius-control: 8px;
+  --radius-card: 12px;
+  --shadow-card: 0 1px 3px rgb(17 24 39 / 6%);
+  --focus-ring: 0 0 0 3px rgb(37 99 235 / 28%);
+}

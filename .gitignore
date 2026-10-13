@@ -1,0 +1,25 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+**/target/
+*.class
+
+# Node.js / frontend build output
+**/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
