@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MultiTenant SaaS Platform
 
 A multi-tenant SaaS starter for restaurant and retail businesses. A shared platform database stores tenant registrations and platform administrators; each active tenant gets a separate MySQL database for its users and business data.
@@ -126,3 +127,6 @@ frontend/
   src/                                    React application
 AGENT_PLAN.md                             Development roadmap
 ```
+=======
+# OwnSpace-MultiTenant
+>>>>>>> 99c70dcbb7e0ab7a9ded6e29f4c68e1faddad429
