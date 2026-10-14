@@ -79,10 +79,14 @@ public class SecurityConfig {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
+
 config.setAllowedOrigins(List.of(
     "http://localhost:5173",
-    "https://own-space-frontend-incu7xe7c-aaa223.vercel.app/"
-));     
+    "https://own-space-frontend-incu7xe7c-aaa223.vercel.app"
+));
+
+
+
    config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
