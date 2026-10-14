@@ -82,7 +82,7 @@ public class SecurityConfig {
 
 config.setAllowedOrigins(List.of(
     "http://localhost:5173",
-    "https://own-space-frontend-incu7xe7c-aaa223.vercel.app"
+    "https://own-space-frontend-omega.vercel.app"
 ));
 
 
